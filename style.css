@@ -1,0 +1,342 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+          text-size-adjust: none;
+  text-decoration: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+html,
+body {
+  margin: 0 !important;
+}
+
+@font-face {
+  font-family: "Pokemonhollow";
+  src: url("/assets/fonts/Pokemon_Hollow.ttf");
+}
+
+@font-face {
+  font-family: "Pokemonsolid";
+  src: url("/assets/fonts/Pokemon_Solid.ttf");
+}
+
+h1 {
+  font-family: Pokemonhollow;
+  font-size: 64px;
+  letter-spacing: 0.35em;
+}
+
+h2 {
+  font-family: pokemonsolid;
+  text-transform: capitalize;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #bf1e2e;
+  border: 4px solid #f2eef5;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+h1 {
+  font-size: 128px;
+  padding: 16px 0px;
+}
+
+input {
+  position: relative;
+  left: 82%;
+  width: 240px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.b-pokeball {
+  position: relative;
+  width: 82px;
+  left: 84px;
+  bottom: 48px;
+}
+
+p {
+  text-align: left;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #bf1e2e;
+  border: 4px solid #f2eef5;
+  border-radius: 8px;
+  padding: 8px;
+  color: #ffffffff;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.b-ashpika {
+  position: relative;
+  width: 62px;
+}
+
+main {
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.b-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+  background-color: #f6efe8;
+  border: 4px solid #f2eef5;
+  border-radius: 8px;
+}
+
+.b-card {
+  background-image: url(/assets/images/cardstandar.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 4px;
+  width: 255px;
+  height: 355px;
+}
+
+.b-card__fire {
+  background-image: url(/assets/images/cardfire.png);
+}
+
+.b-card__water {
+  background-image: url(/assets/images/cardwater.png);
+}
+
+.b-card__grass {
+  background-image: url(/assets/images/cardgrass.png);
+}
+
+.b-card__electric {
+  background-image: url(/assets/images/cardelectric.png);
+}
+
+.b-card__ghost {
+  background-image: url(/assets/images/cardghost.png);
+}
+
+.b-card__psychic {
+  background-image: url(/assets/images/cardpsychic.png);
+}
+
+.b-card__rock {
+  background-image: url(/assets/images/cardrock.png);
+  color: #ffffffff;
+}
+
+.b-card__ground {
+  background-image: url(/assets/images/cardground.png);
+  color: #ffffffff;
+}
+
+.b-card__fighting {
+  background-image: url(/assets/images/cardfighting.png);
+}
+
+.b-card__poison {
+  background-image: url(/assets/images/cardpoison.png);
+  color: #ffffffff;
+}
+
+.b-card h2 {
+  padding-top: 12px;
+  letter-spacing: 0.25em;
+}
+
+.b-card img {
+  padding-top: 30px;
+}
+
+.b-card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.b-profile {
+  width: 88%;
+}
+
+.b-profile__stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+  margin-top: 28px;
+}
+
+.b-profile__type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 38px;
+}
+
+p {
+  font-weight: bold;
+  margin: 4px;
+}
+
+span {
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */

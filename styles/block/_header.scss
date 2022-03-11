@@ -1,0 +1,34 @@
+header {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: $backgroundheader;
+  border: 4px solid $border;
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+h1 {
+  font-size: 128px;
+  padding: 16px 0px;
+}
+
+input {
+  position: relative;
+  left: 82%;
+  width: 240px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.b-pokeball {
+  position: relative;
+  width: 82px;
+  left: 84px;
+  bottom: 48px;
+}
+
+p{
+  text-align: left;
+}

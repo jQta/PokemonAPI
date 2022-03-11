@@ -1,0 +1,98 @@
+main {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.b-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 18px;
+  background-color: $backgroundbody;
+  border: 4px solid $border;
+  border-radius: 8px;
+}
+
+.b-card {
+  background-image: url(/assets/images/cardstandar.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4px;
+  width: 255px;
+  height: 355px;
+
+  &__fire {
+    background-image: url(/assets/images/cardfire.png);
+  }
+  &__water {
+    background-image: url(/assets/images/cardwater.png);
+  }
+  &__grass {
+    background-image: url(/assets/images/cardgrass.png);
+  }
+  &__electric {
+    background-image: url(/assets/images/cardelectric.png);
+  }
+  &__ghost {
+    background-image: url(/assets/images/cardghost.png);
+  }
+  &__psychic {
+    background-image: url(/assets/images/cardpsychic.png);
+  }
+  &__rock {
+    background-image: url(/assets/images/cardrock.png);
+    color: $colorwhite;
+  }
+  &__ground {
+    background-image: url(/assets/images/cardground.png);
+    color: $colorwhite;
+  }
+  &__fighting {
+    background-image: url(/assets/images/cardfighting.png);
+  }
+  &__poison {
+    background-image: url(/assets/images/cardpoison.png);
+    color: $colorwhite;
+  }
+  h2 {
+    padding-top: 12px;
+    letter-spacing: 0.25em;
+  }
+  img {
+    padding-top: 30px;
+  }
+}
+
+.b-card:hover {
+  transform: scale(1.05);
+}
+
+.b-profile {
+  width: 88%;
+  &__stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-top: 28px;
+  }
+
+  &__type {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 38px;
+  }
+}
+
+p {
+  font-weight: bold;
+  margin: 4px;
+}
+
+span {
+  font-weight: bold;
+}

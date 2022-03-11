@@ -1,0 +1,31 @@
+// INITIAL REBOOT
+
+html,
+body {
+  margin: 0 !important;
+}
+
+// GLOBAL BODY
+
+@font-face {
+  font-family: "Pokemonhollow";
+  src: url("/assets/fonts/Pokemon_Hollow.ttf");
+}
+
+@font-face {
+  font-family: "Pokemonsolid";
+  src: url("/assets/fonts/Pokemon_Solid.ttf");
+}
+
+// TYPOGRAPHY
+
+h1 {
+  font-family: Pokemonhollow;
+  font-size: 64px;
+  letter-spacing: 0.35em;
+}
+
+h2 {
+  font-family: pokemonsolid;
+  text-transform: capitalize;
+}
