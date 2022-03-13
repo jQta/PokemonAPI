@@ -47,7 +47,7 @@ const printPokemon = (pokemons) => {
             types$$.className = "b-profile__type";
 
             title$$.textContent = pokemon.name;
-            image$$.src = pokemon.sprites.back_default;
+            image$$.src = pokemon.sprites.back_shiny;
             image$$.alt = pokemon.name;
             height$$.textContent = "Height: " + pokemon.height * 10 + " cm";
             weight$$.textContent = "Weight: " + pokemon.weight / 10 + " Kg";
@@ -90,13 +90,13 @@ const printPokemon = (pokemons) => {
             }
 
             function GottaCatchEmAll() {
-                image$$.src = pokemon.sprites.front_default;
+                image$$.src = pokemon.sprites.front_shiny;
             }
 
             GottaCatchEmAll$$.addEventListener('click', GottaCatchEmAll);
 
             function flipItOut() {
-                image$$.src = pokemon.sprites.front_default;
+                image$$.src = pokemon.sprites.front_shiny;
             }
 
             image$$.addEventListener("click", () => { flipItOut(pokemon) });
@@ -123,7 +123,7 @@ const chosenPokemon = (pokemon) => {
     profile$$.className = "b-profile__stats";
 
     title$$.textContent = pokemon.name;
-    image$$.src = pokemon.sprites.back_default;
+    image$$.src = pokemon.sprites.back_shiny;
     image$$.alt = pokemon.name;
     order$$.textContent = "Order#" + pokemon.order;
     experience$$.textContent = "Base experience: " + pokemon.base_experience;
@@ -162,7 +162,7 @@ const chosenPokemon = (pokemon) => {
     }
 
     function flipItOut() {
-        image$$.src = pokemon.sprites.front_default;
+        image$$.src = pokemon.sprites.front_shiny;
     }
 
     image$$.addEventListener("click", () => { flipItOut(pokemon) });

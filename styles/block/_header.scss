@@ -29,6 +29,16 @@ input {
   bottom: 48px;
 }
 
-p{
+p {
   text-align: left;
+}
+
+a {
+  border-radius: 5px;
+  padding: 10px 7px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  margin: 5px;
+  font-weight: bold;
 }

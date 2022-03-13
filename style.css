@@ -178,6 +178,16 @@ p {
   text-align: left;
 }
 
+a {
+  border-radius: 5px;
+  padding: 10px 7px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  margin: 5px;
+  font-weight: bold;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -293,6 +303,13 @@ main {
 
 .b-card img {
   padding-top: 30px;
+  -webkit-transition: 800ms;
+  transition: 800ms;
+}
+
+.b-image:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .b-card:hover {
@@ -338,5 +355,16 @@ p {
 
 span {
   font-weight: bold;
+}
+
+button {
+  height: 22px;
+  margin-top: 40px;
+  border-radius: 5px;
+  background-color: #f3f3;
+  color: #ffffffff;
+  font-weight: bold;
+  background-color: #333;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
